@@ -102,38 +102,38 @@ header a{
 .mdl a:nth-child(4):hover~.hover{
 
     opacity: 1;
-    left: 175px;
+    left: 260px;
     width: 85px;
 }
 .mdl a:nth-child(5):hover~.hover{
 
     opacity: 1;
-    left: 175px;
-    width: 85px;
+    left: 347px;
+    width: 98px;
 }
 .mdl a:nth-child(6):hover~.hover{
 
     opacity: 1;
-    left: 175px;
-    width: 85px;
+    left: 450px;
+    width: 105px;
 }
 .mdl a:nth-child(7):hover~.hover{
 
     opacity: 1;
-    left: 175px;
+    left: 798px;
     width: 85px;
 }
 .mdl a:nth-child(8):hover~.hover{
 
     opacity: 1;
-    left: 175px;
-    width: 85px;
+    left: 798px;
+    width: 60px;
 }
 .mdl a:nth-child(9):hover~.hover{
 
     opacity: 1;
-    left: 175px;
-    width: 85px;
+    left: 875px;
+    width: 65px;
 }
 
 

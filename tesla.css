@@ -77,6 +77,9 @@ header a{
     display: inline-block;
 }
 
+
+
+
 .mdl a:nth-child(1):hover~.hover{
 
     opacity: 1;
@@ -120,14 +123,14 @@ header a{
 .mdl a:nth-child(7):hover~.hover{
 
     opacity: 1;
-    left: 798px;
-    width: 85px;
+    left: 723px;
+    width: 60px;
 }
 .mdl a:nth-child(8):hover~.hover{
 
     opacity: 1;
     left: 798px;
-    width: 60px;
+    width: 85px;
 }
 .mdl a:nth-child(9):hover~.hover{
 

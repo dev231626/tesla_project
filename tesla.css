@@ -19,7 +19,7 @@ body{
 
 header div img{
 
-    width: 120px;
+    width: 100%;
     height: 15px;
     cursor: pointer;
     margin-top: 20px;
@@ -140,12 +140,6 @@ header a{
 }
 
 
-.tesla{
-
-width: 100%;
-background-color: black;
-    
-}
 
 
 

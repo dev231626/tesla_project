@@ -139,16 +139,43 @@ header a{
     width: 65px;
 }
 
+head a:hover {
+
+    text-decoration-thickness: 2px;
+    
+}
+
+.login{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+
+}
 
 
+.login div{
+    display: flex;
+    justify-content: center;
+    
+}
 
+.btn div {
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    
+}
 
-
-
-
-
-
-
+#order{
+    background-color: ;
+}
 
 
 

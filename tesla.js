@@ -1,10 +1,10 @@
 
 // Tesla.js
 
-var head = document.getElementsByClassName('head')
+var head = document.getElementsByClassName('head')[0]
 
-console.log(head.offsetheight);
-
+console.log('Width:', head.offsetWidth);
+console.log('Height:', head.offsetHeight);
 
 
 

@@ -13,7 +13,7 @@
 body{
     box-sizing: border-box;
     overflow: hidden;
-    background-image: url('https://ev-database.org/img/auto/Tesla_Model_3/Tesla_Model_3-01@2x.jpghttps://ev-database.org/img/auto/Tesla_Model_3/Tesla_Model_3-01@2x.jpg');
+    background-image: url('./tesla-gallery-model-3-2024/Model3_48.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -69,7 +69,7 @@ header a{
 
 
 .hover{
-    background-color: rgba(128, 128, 128, 0.15);
+    background-color: rgba(128, 128, 128, 0.5);
     position: absolute;
     z-index: -1;
     opacity: 0;
@@ -141,6 +141,31 @@ header a{
     width: 65px;
 }
 
+.main-1{
+    display: flex;
+    overflow: auto;
+    flex: none;
+    width: 100%;
+    height: 100vh;
+    flex-flow: column nowrap;
+}
+
+main-1>div{
+    text-align: center;
+    flex: none;
+    width: 100%;
+    height: 100%;
+}
+
+.main-1 div img{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+
+
 head a:hover {
 
     text-decoration-thickness: 2px;
@@ -192,6 +217,27 @@ head a:hover {
     font-weight: 500;
     
 }
+
+.blank{
+    height: 70px;
+}
+
+.login .arrow{
+    
+    height: 60px;
+    font-size: 25px;
+    color: rgb(75, 75, 75);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

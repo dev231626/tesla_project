@@ -182,13 +182,37 @@ main-1>div{
     
 }
 
-head{
+.head{
     position: absolute;
 
     display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 100%;
+    top:0;
+    height:40vh;
+    align-items: center;
+}
+
+
+.head h1{
+    font-size: 45px;
+    font-weight: 500;
+    color:rgb(61,61,61);
+    padding-bottom:5px;
+
     
-    
-    
+}
+
+.head span{
+    color:rgb(53,53,53);
+    font-size:17px;
+}
+.head a{
+    color:rgb(53,53,53);
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-position: under;
 }
 
 
@@ -196,7 +220,6 @@ head{
 head a:hover {
 
     text-decoration-thickness: 2px;
-    
 }
 
 .login{

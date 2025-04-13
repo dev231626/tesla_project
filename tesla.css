@@ -317,14 +317,92 @@ head a:hover {
 }
 
 
+.main .head h1{
+animation: showspan  1s :
+
+}
+
+.main .head span{
+animation: show 2s;
+
+}
 
 
+@keyframes show{
+
+0%{
+transform: translateY(30px);
+opacity: 0;
+
+}
+
+40%{
+transform: translateY(30px);
+opacity: 0;
+
+}
+
+70%{
+transform: translateY(0px);
+opacity: 1;
+
+}
+
+100%{
+transform: translateY(0px);
+opacity: 1;
+
+}
+
+}
+
+@keyframes showspan{
+0%{
+transform: translateY(30px);
+opacity: 0;
+
+}
+
+100%{
+transform: translateY(0);
+opacity: 1;
+}
+}
 
 
+.login #order{
 
+animation: order 1s ;
+}
+@keyframes order {
+    0%{
+    transform: translateX(-20px)
+    opacity: 0;
+    }
 
+    100%{
+        
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
 
+.login #invn {
+    animation: invn 1s;
+    
+}
 
-
-
+@keyframes invn {
+    0%{
+        transform: translateX(20px);
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
 

@@ -213,6 +213,7 @@ main-1>div{
     text-decoration: underline;
     cursor: pointer;
     text-underline-position: under;
+
 }
 
 
@@ -277,9 +278,43 @@ head a:hover {
     height: 60px;
     font-size: 25px;
     color: rgb(75, 75, 75);
+    animation: updown 1.5s ease infinite;
+
 }
 
+@keyframes updown {
 
+    0%{
+        transform:translateY(0);
+    }
+    
+    10%{
+        transform: translateY(5px);
+    }
+
+    20%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(5px);
+    }
+
+    40%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(5px);
+    }
+
+    80%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(5px);
+    }
+}
 
 
 

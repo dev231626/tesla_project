@@ -10,10 +10,50 @@
     
 }
 
-body{
+.main-2{
     box-sizing: border-box;
     overflow: hidden;
     background-image: url('./tesla-gallery-model-3-2024/Model3_48.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.main-3{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url('./tesla-gallery-model-3-2024/Model3-47.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.main-4{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url('./tesla-gallery-model-3-2024/Model3_49.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.main-5{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url('./tesla-gallery-model-3-2024/Model3_50.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.main-6{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url('./tesla-gallery-model-3-2024/Model3_51.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.main-7{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url('./tesla-gallery-model-3-2024/Model3_52.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -405,4 +445,16 @@ animation: order 1s ;
     }
     
 }
+
+h
+
+
+
+
+
+
+
+
+
+
 

@@ -1,12 +1,523 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
 
-// Tesla.js
-
-var head = document.getElementsByClassName('head')[0]
-
-console.log('Width:', head.offsetWidth);
-console.log('Height:', head.offsetHeight);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
 
 
+
+
+.main-2{
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+
+header div img{
+
+    width: 120px;
+    height: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+header{
+    margin-right: 10px;
+    z-index: 1;
+    margin-left: 50px;
+    justify-content: space-around;
+    position: fixed;
+    display: flex;
+}
+
+header a{
+
+    line-height: 30px;
+    padding: 0 15px;
+    white-space: nowrap;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+    
+}
+
+
+.mdl{
+
+    margin-left: 200px;
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+}
+
+.mdl a:nth-child(6){
+
+    padding-right: 180px;
+}
+
+
+.hover{
+    background-color: rgba(128, 128, 128, 0.5);
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.7s ;
+    border-radius: 10px;
+    height: 30px;
+    display: inline-block;
+}
+
+
+
+
+.mdl a:nth-child(1):hover~.hover{
+
+    opacity: 1;
+    left: 0;
+    width: 85px;
+    
+}
+
+.mdl a:nth-child(2):hover~.hover{
+
+    opacity: 1;
+    left: 90px;
+    width: 80px;
+
+
+}
+.mdl a:nth-child(3):hover~.hover{
+
+    opacity: 1;
+    left: 175px;
+    width: 85px;
+}
+.mdl a:nth-child(4):hover~.hover{
+
+    opacity: 1;
+    left: 260px;
+    width: 85px;
+}
+.mdl a:nth-child(5):hover~.hover{
+
+    opacity: 1;
+    left: 347px;
+    width: 98px;
+}
+.mdl a:nth-child(6):hover~.hover{
+
+    opacity: 1;
+    left: 450px;
+    width: 105px;
+}
+.mdl a:nth-child(7):hover~.hover{
+
+    opacity: 1;
+    left: 723px;
+    width: 60px;
+}
+.mdl a:nth-child(8):hover~.hover{
+
+    opacity: 1;
+    left: 798px;
+    width: 85px;
+}
+.mdl a:nth-child(9):hover~.hover{
+
+    opacity: 1;
+    left: 875px;
+    width: 65px;
+}
+
+
+
+
+
+/* code for main grid */
+
+
+
+.main-1{
+    display: flex;
+    overflow: auto;
+    flex: none;
+    width: 100%;
+    height: 100%;
+    flex-flow: column nowrap;
+    scroll-snap-type: y mandatory;
+}
+
+main-1>div{
+    text-align: center;
+    flex: none;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+}
+
+.main-1 div img{
+    width: 100vw; /* Ensure the image spans the full viewport width */
+    height: 100vh; /* Ensure the image spans the full viewport height */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    object-position: center; /* Center the image */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default paddings */
+    display: block; /* Ensure no inline spacing issues */
+}
+
+
+
+
+.main-2{
+
+    position: relative;
+    
+    
+}
+
+.head{
+    position: absolute;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 100%;
+    top:0;
+    height:40vh;
+    align-items: center;
+}
+
+
+.head h1{
+    font-size: 45px;
+    font-weight: 500;
+    color:rgb(3, 3, 3);
+    padding-bottom:5px;
+
+    
+}
+
+.head span{
+    color:rgb(53,53,53);
+    font-size:17px;
+}
+.head a{
+    color:rgb(53,53,53);
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-position: under;
+
+}
+
+
+
+head a:hover {
+
+    text-decoration-thickness: 2px;
+}
+
+.login{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+
+}
+
+
+.login div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn div {
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    
+}
+
+#order{
+    background-color: #393c41;
+    color: white;
+}
+#invn{
+
+    background-color: #eeebeb;
+    color: #393c41;
+}
+
+
+#order, #invn{
+
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.blank{
+    height: 70px;
+}
+
+.login .arrow{
+    
+    height: 60px;
+    font-size: 25px;
+    color: rgb(75, 75, 75);
+    animation: updown 1.5s ease infinite;
+
+}
+
+@keyframes updown {
+
+    0%{
+        transform:translateY(0);
+    }
+    
+    10%{
+        transform: translateY(5px);
+    }
+
+    20%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(5px);
+    }
+
+    40%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(5px);
+    }
+
+    80%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(5px);
+    }
+}
+
+
+.main .head h1{
+animation: showspan  1s ;
+
+}
+
+.main .head span{
+animation: show 2s;
+
+}
+
+.main-2.active .head h1 {
+    animation: showspan 1s; /* Apply animation to h1 */
+}
+
+.main-2.active .head span {
+    animation: show 2s; /* Apply animation to span */
+}
+
+@keyframes show{
+
+0%{
+transform: translateY(30px);
+opacity: 0;
+
+}
+
+40%{
+transform: translateY(30px);
+opacity: 0;
+
+}
+
+70%{
+transform: translateY(0px);
+opacity: 1;
+
+}
+
+100%{
+transform: translateY(0px);
+opacity: 1;
+
+}
+
+}
+
+@keyframes showspan{
+0%{
+transform: translateY(30px);
+opacity: 0;
+
+}
+
+100%{
+transform: translateY(0);
+opacity: 1;
+}
+}
+
+
+.login #order{
+
+animation: order 1s ;
+}
+@keyframes order {
+    0%{
+    transform: translateX(-20px);
+    opacity: 0;
+    }
+
+    100%{
+        
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+.login #invn {
+    animation: invn 1s;
+    
+}
+
+@keyframes invn {
+    0%{
+        transform: translateX(20px);
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+
+.blur{
+    position: fixed;
+    width: 100%;
+    display: none;
+    height: 100vh;
+    z-index: 99;
+    transition: all 0.5s;
+    backdrop-filter: blur(4px);
+    background-color: rgba(57, 60, 65, 0.43);
+}
+
+.blur.active{
+    display: block;
+}
+
+.hdn-side{
+    position: absolute;
+    right: 0;
+    width: 310px;
+    opacity: 0;
+    transform: translateX(320px);
+    transition: all 1.2s;
+    z-index: 100;
+    height: 100%;
+    overflow: scroll;
+    background-color: white;
+}
+
+.hdn-side.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+#mark{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    background-color: white;
+    position: sticky;
+    z-index: 100;
+    right: 0;
+    cursor: pointer;
+}
+
+#mark .fa-xmark{
+    font-size: 25px;
+    padding: 8px 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#mark .fa-xmark:hover{
+    background-color: rgb(233,233,233);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hdn-cont{
+    padding: 5px 30px;
+    height: 100%;
+}
+
+.hdn-cont li{
+    padding: 10px 15px;
+    font-size: 15px;
+    transition: all 0,5s;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.hdn-cont li:hover{
+    background-color: rgb(233,233,233);
+    border-radius: 15px;
+
+}
+
+.login{
+    opacity: 0;
+}
+
+.login-1{
+    opacity: 1;
+    transition: all 1.5s;
+}
+
+.login-2, .login-3, .login-4, .login-5, .login-6, .head-2, .head-3, .head-4, .head-5, .head-6{
+    opacity: 0;
+    transition: all 1.5s;
+    z-index: 1;
+}
+
+
+.active{
+    opacity: 1;
+}
+
+.hide{
+    opacity: 0;
+}
 
 
 
